@@ -1,0 +1,84 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DATA_PATH	introduction_to_ml_with_python-master/mglearn/datasets.py	/^DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data")$/;"	v
+ReBl	introduction_to_ml_with_python-master/mglearn/plot_helpers.py	/^ReBl = LinearSegmentedColormap("ReBl", cdict)$/;"	v
+__all__	introduction_to_ml_with_python-master/mglearn/__init__.py	/^__all__ = ['tools', 'plots', 'cm3', 'cm2', 'discrete_scatter', 'ReBl']$/;"	v
+__all__	introduction_to_ml_with_python-master/mglearn/plots.py	/^__all__ = ['plot_linear_svc_regularization',$/;"	v
+__all__	introduction_to_ml_with_python-master/mglearn/tools.py	/^__all__ = ['plot_2d_separator', 'plot_2d_classification', 'plot_2d_scores',$/;"	v
+__all__	introduction_to_ml_with_python-master/preamble.py	/^__all__ = ['np', 'mglearn', 'display', 'plt', 'pd']$/;"	v
+_call_classifier_chunked	introduction_to_ml_with_python-master/mglearn/plot_2d_separator.py	/^def _call_classifier_chunked(classifier_pred_or_decide, X):$/;"	f
+cdict	introduction_to_ml_with_python-master/mglearn/plot_helpers.py	/^cdict = {'red': [(0.0, 0.0, cm2(0)[0]),$/;"	v
+clf	introduction_to_ml_with_python-master/mglearn/plot_2d_separator.py	/^    clf = LogisticRegression(solver='lbfgs').fit(X, y)$/;"	v
+cm2	introduction_to_ml_with_python-master/mglearn/plot_helpers.py	/^cm2 = ListedColormap(['#0000aa', '#ff2020'])$/;"	v
+cm3	introduction_to_ml_with_python-master/mglearn/plot_helpers.py	/^cm3 = ListedColormap(['#0000aa', '#ff2020', '#50ff50'])$/;"	v
+cm_cycle	introduction_to_ml_with_python-master/mglearn/plot_helpers.py	/^cm_cycle = ListedColormap(['#0000aa', '#ff5050', '#50ff50', '#9040a0', '#fff000'])$/;"	v
+discrete_scatter	introduction_to_ml_with_python-master/mglearn/plot_helpers.py	/^def discrete_scatter(x1, x2, y=None, markers=None, s=10, ax=None,$/;"	f
+draw	introduction_to_ml_with_python-master/mglearn/plot_grid_search.py	/^    def draw(ax, text, start, target=None):$/;"	f	function:plot_grid_search_overview
+get_tree	introduction_to_ml_with_python-master/mglearn/tools.py	/^def get_tree(tree, **kwargs):$/;"	f
+heatmap	introduction_to_ml_with_python-master/mglearn/tools.py	/^def heatmap(values, xlabel, ylabel, xticklabels, yticklabels, cmap=None,$/;"	f
+load_citibike	introduction_to_ml_with_python-master/mglearn/datasets.py	/^def load_citibike():$/;"	f
+load_extended_boston	introduction_to_ml_with_python-master/mglearn/datasets.py	/^def load_extended_boston():$/;"	f
+make_blobs	introduction_to_ml_with_python-master/mglearn/make_blobs.py	/^def make_blobs(n_samples=100, n_features=2, centers=2, cluster_std=1.0,$/;"	f
+make_bracket	introduction_to_ml_with_python-master/mglearn/plot_improper_preprocessing.py	/^def make_bracket(s, xy, textxy, width, ax):$/;"	f
+make_forge	introduction_to_ml_with_python-master/mglearn/datasets.py	/^def make_forge():$/;"	f
+make_handcrafted_dataset	introduction_to_ml_with_python-master/mglearn/tools.py	/^def make_handcrafted_dataset():$/;"	f
+make_signals	introduction_to_ml_with_python-master/mglearn/datasets.py	/^def make_signals():$/;"	f
+make_wave	introduction_to_ml_with_python-master/mglearn/datasets.py	/^def make_wave(n_samples=100):$/;"	f
+memory	introduction_to_ml_with_python-master/mglearn/plot_nmf.py	/^memory = Memory(cachedir="cache")$/;"	v
+memory	introduction_to_ml_with_python-master/mglearn/plot_pca.py	/^memory = Memory(cachedir="cache")$/;"	v
+nmf_faces	introduction_to_ml_with_python-master/mglearn/plot_nmf.py	/^def nmf_faces(X_train, X_test):$/;"	f
+pca_faces	introduction_to_ml_with_python-master/mglearn/plot_pca.py	/^def pca_faces(X_train, X_test):$/;"	f
+plot_2d_classification	introduction_to_ml_with_python-master/mglearn/plot_2d_separator.py	/^def plot_2d_classification(classifier, X, fill=False, ax=None, eps=None,$/;"	f
+plot_2d_scores	introduction_to_ml_with_python-master/mglearn/plot_2d_separator.py	/^def plot_2d_scores(classifier, X, ax=None, eps=None, alpha=1, cm="viridis",$/;"	f
+plot_2d_separator	introduction_to_ml_with_python-master/mglearn/plot_2d_separator.py	/^def plot_2d_separator(classifier, X, fill=False, ax=None, eps=None, alpha=1,$/;"	f
+plot_agglomerative	introduction_to_ml_with_python-master/mglearn/plot_agglomerative.py	/^def plot_agglomerative():$/;"	f
+plot_agglomerative_algorithm	introduction_to_ml_with_python-master/mglearn/plot_agglomerative.py	/^def plot_agglomerative_algorithm():$/;"	f
+plot_animal_tree	introduction_to_ml_with_python-master/mglearn/plot_animal_tree.py	/^def plot_animal_tree(ax=None):$/;"	f
+plot_binary_confusion_matrix	introduction_to_ml_with_python-master/mglearn/plot_metrics.py	/^def plot_binary_confusion_matrix():$/;"	f
+plot_confusion_matrix_illustration	introduction_to_ml_with_python-master/mglearn/plot_metrics.py	/^def plot_confusion_matrix_illustration():$/;"	f
+plot_cross_val_selection	introduction_to_ml_with_python-master/mglearn/plot_grid_search.py	/^def plot_cross_val_selection():$/;"	f
+plot_cross_validation	introduction_to_ml_with_python-master/mglearn/plot_cross_validation.py	/^def plot_cross_validation():$/;"	f
+plot_dbscan	introduction_to_ml_with_python-master/mglearn/plot_dbscan.py	/^def plot_dbscan():$/;"	f
+plot_decision_threshold	introduction_to_ml_with_python-master/mglearn/plot_metrics.py	/^def plot_decision_threshold():$/;"	f
+plot_decomposition	introduction_to_ml_with_python-master/mglearn/plot_decomposition.py	/^def plot_decomposition(people, pca):$/;"	f
+plot_grid_search_overview	introduction_to_ml_with_python-master/mglearn/plot_grid_search.py	/^def plot_grid_search_overview():$/;"	f
+plot_group_kfold	introduction_to_ml_with_python-master/mglearn/plot_cross_validation.py	/^def plot_group_kfold():$/;"	f
+plot_improper_processing	introduction_to_ml_with_python-master/mglearn/plot_improper_preprocessing.py	/^def plot_improper_processing():$/;"	f
+plot_kmeans_algorithm	introduction_to_ml_with_python-master/mglearn/plot_kmeans.py	/^def plot_kmeans_algorithm():$/;"	f
+plot_kmeans_boundaries	introduction_to_ml_with_python-master/mglearn/plot_kmeans.py	/^def plot_kmeans_boundaries():$/;"	f
+plot_kmeans_faces	introduction_to_ml_with_python-master/mglearn/plot_kmeans.py	/^def plot_kmeans_faces(km, pca, X_pca, X_people, y_people, target_names):$/;"	f
+plot_kneighbors_regularization	introduction_to_ml_with_python-master/mglearn/plot_kneighbors_regularization.py	/^def plot_kneighbors_regularization():$/;"	f
+plot_knn_classification	introduction_to_ml_with_python-master/mglearn/plot_knn_classification.py	/^def plot_knn_classification(n_neighbors=1):$/;"	f
+plot_knn_regression	introduction_to_ml_with_python-master/mglearn/plot_knn_regression.py	/^def plot_knn_regression(n_neighbors=1):$/;"	f
+plot_learning_curve	introduction_to_ml_with_python-master/mglearn/plot_ridge.py	/^def plot_learning_curve(est, X, y):$/;"	f
+plot_linear_regression_wave	introduction_to_ml_with_python-master/mglearn/plot_linear_regression.py	/^def plot_linear_regression_wave():$/;"	f
+plot_linear_svc_regularization	introduction_to_ml_with_python-master/mglearn/plot_linear_svc_regularization.py	/^def plot_linear_svc_regularization():$/;"	f
+plot_logistic_regression_graph	introduction_to_ml_with_python-master/mglearn/plot_nn_graphs.py	/^def plot_logistic_regression_graph():$/;"	f
+plot_nmf_faces	introduction_to_ml_with_python-master/mglearn/plot_nmf.py	/^def plot_nmf_faces(X_train, X_test, image_shape):$/;"	f
+plot_nmf_illustration	introduction_to_ml_with_python-master/mglearn/plot_nmf.py	/^def plot_nmf_illustration():$/;"	f
+plot_pca_faces	introduction_to_ml_with_python-master/mglearn/plot_pca.py	/^def plot_pca_faces(X_train, X_test, image_shape):$/;"	f
+plot_pca_illustration	introduction_to_ml_with_python-master/mglearn/plot_pca.py	/^def plot_pca_illustration():$/;"	f
+plot_pca_whitening	introduction_to_ml_with_python-master/mglearn/plot_pca.py	/^def plot_pca_whitening():$/;"	f
+plot_proper_processing	introduction_to_ml_with_python-master/mglearn/plot_improper_preprocessing.py	/^def plot_proper_processing():$/;"	f
+plot_ridge_n_samples	introduction_to_ml_with_python-master/mglearn/plot_ridge.py	/^def plot_ridge_n_samples():$/;"	f
+plot_scaling	introduction_to_ml_with_python-master/mglearn/plot_scaling.py	/^def plot_scaling():$/;"	f
+plot_shuffle_split	introduction_to_ml_with_python-master/mglearn/plot_cross_validation.py	/^def plot_shuffle_split():$/;"	f
+plot_single_hidden_layer_graph	introduction_to_ml_with_python-master/mglearn/plot_nn_graphs.py	/^def plot_single_hidden_layer_graph():$/;"	f
+plot_stratified_cross_validation	introduction_to_ml_with_python-master/mglearn/plot_cross_validation.py	/^def plot_stratified_cross_validation():$/;"	f
+plot_svm	introduction_to_ml_with_python-master/mglearn/plot_rbf_svm_parameters.py	/^def plot_svm(log_C, log_gamma, ax=None):$/;"	f
+plot_svm_interactive	introduction_to_ml_with_python-master/mglearn/plot_rbf_svm_parameters.py	/^def plot_svm_interactive():$/;"	f
+plot_threefold_split	introduction_to_ml_with_python-master/mglearn/plot_cross_validation.py	/^def plot_threefold_split():$/;"	f
+plot_tree	introduction_to_ml_with_python-master/mglearn/plot_interactive_tree.py	/^def plot_tree(X, y, max_depth=1, ax=None):$/;"	f
+plot_tree_not_monotone	introduction_to_ml_with_python-master/mglearn/plot_tree_nonmonotonous.py	/^def plot_tree_not_monotone():$/;"	f
+plot_tree_partition	introduction_to_ml_with_python-master/mglearn/plot_interactive_tree.py	/^def plot_tree_partition(X, y, tree, ax=None):$/;"	f
+plot_tree_progressive	introduction_to_ml_with_python-master/mglearn/plot_interactive_tree.py	/^def plot_tree_progressive():$/;"	f
+plot_two_hidden_layer_graph	introduction_to_ml_with_python-master/mglearn/plot_nn_graphs.py	/^def plot_two_hidden_layer_graph():$/;"	f
+print_topics	introduction_to_ml_with_python-master/mglearn/tools.py	/^def print_topics(topics, feature_names, sorting, topics_per_chunk=6,$/;"	f
+s	introduction_to_ml_with_python-master/plot_test.py	/^s = 1 + np.sin(2*np.pi*t)$/;"	v
+t	introduction_to_ml_with_python-master/plot_test.py	/^t = np.arange(0.0, 2.0, 0.01)$/;"	v
+tree_image	introduction_to_ml_with_python-master/mglearn/plot_interactive_tree.py	/^def tree_image(tree, fout=None):$/;"	f
+visualize_coefficients	introduction_to_ml_with_python-master/mglearn/tools.py	/^def visualize_coefficients(coefficients, feature_names, n_top_features=25):$/;"	f
